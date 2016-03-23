@@ -1,0 +1,38 @@
+{
+  "name": "grunt-list-page",
+  "description": "The plugin creates an index file with a list of html files",
+  "version": "0.1.0",
+  "homepage": "https://github.com/denis-zavgorodny/grunt-list-page",
+  "author": {
+    "name": "Denis Zavgorodny",
+    "email": "denis.zavgorodny@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/denis-zavgorodny/grunt-list-page.git"
+  },
+  "bugs": {
+    "url": "https://github.com/denis-zavgorodny/grunt-list-page/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/denis-zavgorodny/grunt-list-page/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}

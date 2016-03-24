@@ -15,11 +15,9 @@ module.exports = function(grunt) {
     grunt.registerMultiTask('list_page', 'The plugin creates an index file with a list of html files', function() {
         // Merge task-specific and/or target-specific options with these defaults.
         var options = this.options({
-            punctuation: '.',
-            separator: ', ',
             fileTemplate: 'template.html',
             title: "Mainpage",
-            listTemplate: '<li><a href="%href%">%name%</a></li>'
+            listTemplate: '<li><a target="_blank" href="%href%">%name%</a></li>'
         });
 
         var fileTemplate = grunt.file.read(__dirname + "/" + options.fileTemplate);

@@ -1,7 +1,7 @@
 {
   "name": "grunt-list-page",
   "description": "The plugin creates an index file with a list of html files",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/denis-zavgorodny/grunt-list-page",
   "author": {
     "name": "Denis Zavgorodny",

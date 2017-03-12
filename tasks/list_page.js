@@ -43,7 +43,7 @@ module.exports = function(grunt) {
                 if(title != null) {
                     return options.listTemplate.replace('%href%', baneName).replace('%name%', title[1]?title[1]:baneName);    
                 }
-                return baneName;
+                return options.listTemplate.replace('%href%', baneName).replace('%name%', baneName);    
             }).join("");
 
             // Handle options.
